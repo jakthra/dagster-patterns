@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "dagster-patterns"
+version = "0.1.0"
+description = ""
+authors = ["Jakob Thrane <jakobthrane@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12, <3.13"
+dagster = "^1.7.12"
+dagster-webserver = "^1.7.12"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.5.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
